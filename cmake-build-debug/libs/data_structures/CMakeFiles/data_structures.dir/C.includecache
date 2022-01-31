@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/testliberaly/libs/algorithms/array/array.h
+stddef.h
+-
+
+D:/testliberaly/libs/data_structures/unordered_array_set/unordered_array_set.c
+stdio.h
+-
+malloc.h
+-
+stdlib.h
+-
+unordered_array_set.h
+D:/testliberaly/libs/data_structures/unordered_array_set/unordered_array_set.h
+
+D:/testliberaly/libs/data_structures/unordered_array_set/unordered_array_set.h
+stdint.h
+-
+assert.h
+-
+memory.h
+-
+stdio.h
+-
+stdbool.h
+-
+../../algorithms/array/array.h
+D:/testliberaly/libs/algorithms/array/array.h
+
