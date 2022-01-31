@@ -357,6 +357,9 @@ void test() {
     test_unordered_array_set_complement();
 }
 
+int f(){
+    return 0;
+}
 
 int main() {
     test();

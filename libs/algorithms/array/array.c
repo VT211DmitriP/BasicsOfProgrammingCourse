@@ -3,7 +3,7 @@
 #include <assert.h>
 #include "array.h"
 
-
+// проверка связи
 void inputArray_(int *const a, const size_t n) {
     for (size_t i = 0; i < n; i++)
         scanf("%d", &a[i]);
@@ -123,5 +123,6 @@ size_t binarySearchMoreOrEqual_(const int *a, size_t n, int x) {
     }
     return right;
 }
+
 
 
